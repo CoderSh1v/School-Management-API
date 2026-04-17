@@ -82,4 +82,8 @@ app.get("/listSchools", (req, res) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.send("School API is running");
+});
+
 export {app}
